@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class URI1001 {
 
     public static void main(String[] args) throws IOException {
-        int A;
-        int B;
-        int X = 0;
+        int a;
+        int b;
+        int x = 0;
 
         Scanner in = new Scanner(System.in);
-        A = in.nextInt();
-        B = in.nextInt();
-        X = A + B;
-        System.out.println("X = " + X);
+        a = in.nextInt();
+        b = in.nextInt();
+        x = a + b;
+        System.out.println("X = " + x);
         in.close();
     }
 }

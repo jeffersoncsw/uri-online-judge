@@ -22,11 +22,11 @@ public class URI1003 {
     public static void main(String[] args) throws IOException {
         Locale.setDefault(Locale.US);
         Scanner in = new Scanner(System.in);
-        int A = in.nextInt();
-        int B = in.nextInt();
-        int SOMA = A + B;
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int soma = a + b;
 
-        System.out.println("SOMA = " + SOMA);
+        System.out.println("SOMA = " + soma);
 
         in.close();
 
